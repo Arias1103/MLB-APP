@@ -1,3 +1,6 @@
-div  {
-border: solid 5px rgb(175, 12, 48)
+#Main {
+border: solid 5px rgb(175, 12, 48);
+background: url(../Images/mlb-logo19.jpg);
+align-self: center;
+color: white;
 }

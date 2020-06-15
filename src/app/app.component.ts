@@ -7,8 +7,8 @@ import { Configuration} from './Models/configuration';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Getinsoft Test Arias';
-  showGames: boolean = true;
+  title = 'MLB App';
+  showMvp: boolean = true;
   config;
 
   constructor(){
@@ -17,6 +17,6 @@ export class AppComponent {
   }
 
   hideGames(value){
-   this.showGames= value;
+   this.showMvp= value;
   }
 }

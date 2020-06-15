@@ -1,10 +1,10 @@
 import {Component, OnInit, DoCheck, OnDestroy} from '@angular/core';
 
 @Component({
-selector: 'videogame',
-templateUrl: './videogame.component.html'
+selector: 'BestPlayers',
+templateUrl: './BestPlayers.component.html'
 })
-export class VideoGameComponent implements OnInit, DoCheck{
+export class BestPlayersComponent implements OnInit, DoCheck{
    public slogan: string;
    public section: string;
    public 

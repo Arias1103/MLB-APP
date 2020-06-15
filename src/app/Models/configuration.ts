@@ -1,5 +1,7 @@
+import { url } from 'inspector';
+
 export var Configuration ={
     "color": " gray",
-    "Background": "#E9E8E6",
+    "Background": "url(../Images/mlb_logo.jpg)",
     "title": " Angular App"
 };

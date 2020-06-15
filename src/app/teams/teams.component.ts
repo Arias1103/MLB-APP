@@ -16,7 +16,7 @@ public teams: Array<Team>;
     this.conference = "American"
     this.teams=[
       new Team('Blue jays',20,'Toronto',500),
-      new Team('Meats',22,'New York',1000),
+      new Team('Mets',22,'New York',1000),
       new Team('Tigers',20,'Detroit',200),
       new Team('Red Sox',20,'Boston',2000),
       new Team('Yankees',20,'New York',2000),

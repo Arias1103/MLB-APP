@@ -1,11 +1,12 @@
 
-<div [ngStyle]="{'background': config.Background }">
+<div id="Main">
    <h1>{{title}} is running</h1> 
-   <button (click)="hideGames(false)" *ngIf="showGames"> Hide </button> 
-   <button (click)="hideGames(true)" *ngIf="!showGames"> Show </button> 
-   <videogame *ngIf="showGames">
-   </videogame>
+   <button (click)="hideGames(false)" *ngIf="showMvp"> Hide </button> 
+   <button (click)="hideGames(true)" *ngIf="!showMvp"> Show </button> 
+   <BestPlayers *ngIf="showMvp">
+   </BestPlayers>
    <teams>
    </teams>
+
 </div>
 
