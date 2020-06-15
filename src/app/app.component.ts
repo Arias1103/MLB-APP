@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Configuration} from './Models/configuration';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'test-app';
+  title = 'Getinsoft Test Arias';
+  showGames: boolean = true;
+  config;
+
+  constructor(){
+    this.title=Configuration.title;
+    this.config=Configuration;
+  }
+
+  hideGames(value){
+   this.showGames= value;
+  }
 }

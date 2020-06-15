@@ -1,0 +1,13 @@
+
+<h1>{{ligue}}</h1>
+
+<h2>{{conference}}</h2>
+<ul>
+    <li  *ngFor="let franchise of teams">
+    {{franchise.name}} - <strong>players: {{franchise.players}},
+      city: {{franchise.city}}, fans in US: {{franchise.fans}}
+    </strong>
+    </li>
+   
+</ul>
+<button (click)="ChangeLigue()">change conference</button>
